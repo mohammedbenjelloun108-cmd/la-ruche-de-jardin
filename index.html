@@ -1306,7 +1306,6 @@
         backdrop-filter: blur(6px);
         border-radius: 50px;
         transition: all 0.3s ease;
-        flex-wrap: wrap;
         z-index: 1000;
       }
 
@@ -1423,6 +1422,12 @@
 }
 html {
   scroll-behavior: smooth;
+}
+@media (max-width: 768px) {
+  .nav a {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
 }
 
     </style>
@@ -2296,6 +2301,7 @@ ${message || "-"}
     </script>
   </body>
 </html>
+
 
 
 
