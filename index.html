@@ -1382,44 +1382,7 @@
   background: #f1c94a;
   transform: translateY(-2px) scale(1.05);
 }
-.reservation {
-  padding: 100px 20px;
-  text-align: center;
-  background: #f8f8f8;
-}
 
-.reservation h2 {
-  font-size: 36px;
-  margin-bottom: 10px;
-}
-
-.reservation-form {
-  max-width: 500px;
-  margin: 40px auto 0;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.reservation-form input,
-.reservation-form button {
-  padding: 14px;
-  border-radius: 12px;
-  border: 1px solid #ddd;
-  font-size: 15px;
-}
-
-.reservation-form button {
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.reservation-form button:hover {
-  background: #d4af37;
-  color: #000;
-}
 html {
   scroll-behavior: smooth;
 }
@@ -1891,19 +1854,7 @@ html {
         </div>
       </div>
     </section>
-    <section id="reservation" class="reservation">
-  <h2>Réservation</h2>
-  <p>Réservez votre table facilement</p>
-
-  <form class="reservation-form">
-    <input type="text" placeholder="Nom complet" required>
-    <input type="email" placeholder="Email" required>
-    <input type="date" required>
-    <input type="time" required>
-    <input type="number" placeholder="Nombre de personnes" required>
-    <button type="submit">Réserver maintenant</button>
-  </form>
-</section>
+  
 
     <section id="avis" class="avis-section">
       <h2>Avis clients</h2>
@@ -2301,6 +2252,7 @@ ${message || "-"}
     </script>
   </body>
 </html>
+
 
 
 
